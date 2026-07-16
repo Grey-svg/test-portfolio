@@ -1,0 +1,7 @@
+# robots.txt for adnanmardini.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location for crawlers
+Sitemap: https://adnanmardini.com/sitemap.xml

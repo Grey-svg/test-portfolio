@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShieldFlow — DevSecOps Security Automation · Adnan Mardini</title>
+    <meta name="description" content="ShieldFlow: A DevSecOps platform designed to integrate automated security testing into the software development lifecycle.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2300d4aa'/%3E%3Cstop offset='100%25' style='stop-color:%2300a3ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='22' fill='url(%23g)'/%3E%3Ctext x='50' y='72' text-anchor='middle' fill='%230a0e14' font-family='Inter,sans-serif' font-weight='900' font-size='62'%3EA%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        .case-study-hero {
+            padding: 140px 24px 60px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .case-study-body {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 24px 80px;
+        }
+        .case-study-body h2 { margin-top: 48px; }
+        .case-study-body ul { margin: 16px 0 16px 24px; color: var(--text-secondary); line-height: 1.7; }
+        .case-study-body ul li { margin-bottom: 8px; list-style: disc; }
+        .tech-badge {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            background: rgba(0, 212, 170, 0.1);
+            color: var(--accent-primary);
+            border: 1px solid rgba(0, 212, 170, 0.2);
+            margin: 3px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="../../index.html" class="nav-logo">AM<span class="accent">.</span></a>
+            <ul class="nav-menu">
+                <li><a href="../../index.html" class="nav-link">Home</a></li>
+                <li><a href="../../index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="../../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="case-study-hero">
+            <p class="post-eyebrow"><a href="../../index.html">← Back to portfolio</a></p>
+            <h1 class="post-title">ShieldFlow</h1>
+            <p class="post-dek">DevSecOps Security Automation Platform</p>
+            <div style="margin-top: 16px;">
+                <span class="tech-badge">GitHub Actions</span>
+                <span class="tech-badge">Semgrep</span>
+                <span class="tech-badge">Trivy</span>
+                <span class="tech-badge">Gitleaks</span>
+                <span class="tech-badge">OWASP ZAP</span>
+                <span class="tech-badge">Docker</span>
+            </div>
+            <div style="margin-top: 24px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://github.com/Adnanmardini" class="btn btn-card" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+        <div class="case-study-body">
+            <h2>Overview</h2>
+            <p>ShieldFlow is a DevSecOps platform designed to integrate automated security testing into the software development lifecycle, helping identify vulnerabilities before deployment through continuous security validation.</p>
+
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Automated SAST:</strong> Static application security testing using Semgrep for code analysis</li>
+                <li><strong>Automated DAST:</strong> Dynamic application security testing with OWASP ZAP</li>
+                <li><strong>Dependency Scanning:</strong> Automated vulnerability scanning of third-party dependencies</li>
+                <li><strong>Secret Detection:</strong> Gitleaks integration to prevent credential leaks</li>
+                <li><strong>Container Security:</strong> Trivy-based container image vulnerability scanning</li>
+                <li><strong>CI/CD Integration:</strong> GitHub Actions workflows for automated security gates</li>
+            </ul>
+
+            <h2>Security Integration</h2>
+            <p>ShieldFlow implements a shift-left security approach, running automated security checks at every stage of the CI/CD pipeline. Security findings are reported with severity levels, remediation guidance, and build pass/fail decisions based on organizational security policies.</p>
+
+            <h2>Technologies</h2>
+            <p>GitHub Actions, Semgrep, Trivy, Gitleaks, OWASP ZAP, Docker, Secure SDLC</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-bottom"><p>&copy; 2026 Adnan Mardini</p></div>
+        </div>
+    </footer>
+</body>
+</html>
